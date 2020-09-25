@@ -1,55 +1,16 @@
-# Infrared and Visible Image Fusion using a Deep Learning Framework
-International Conference of Pattern Recognition 2018(Accepted)
+# An Infrared and Visible Image Fusion Algorithm Based on ResNet-152
+To improve the details of the fusion image from the infrared and visible images by reducing artifacts and noise, an infrared and visible image fusion algorithm based on ResNet-152 is proposed. First, the source images are decomposed into the low-frequency part and the high-frequency part. The low-frequency part is processed by the average weighting strategy. Second, the multi-layer features are extracted from high-frequency part by using the ResNet-152 network. Regularization L1, convolution operation, bilinear interpolation upsampling and maximum selection strategy on the feature layers to obtain the maximum weight layer. Multiplying the maximum weight layer and the high-frequency as new high-frequency. Finally, the fusion image is reconstructed by the low-frequency and the high-frequency. Experiments show that the proposed method can get more details from the image texture by retaining the significant features of the images. In addition, this method can effectively reduce artifacts and noise. The consistency in the subjective evaluation and objective evaluation performs superior to the comparative algorithms.
 
-*Li H, Wu X J, Kittler J. Infrared and Visible Image Fusion using a Deep Learning Framework[C]//Pattern Recognition (ICPR), 2018 24rd International Conference on. IEEE, 2018: 2705 - 2710.*
+Developer Liming Zhang(zhanglm8@gmail.com)
 
-- [IEEEXplore](https://ieeexplore.ieee.org/document/8546006)
-- [ArXiv](https://arxiv.org/abs/1804.06992)
+Contact address Faculty of Geomatics, Lanzhou Jiaotong University, Lanzhou 730070, China
 
+Year first available 2020
 
-### Requirements
-You will need the following tools to run this codes:
-- [MatConvNet](http://www.vlfeat.org/matconvnet/)
-- [VGG-19](https://pan.baidu.com/s/1eSgxtyM)
+Telephone number 0086-931-4957229
 
+Program language Matlab language
 
-If you have any question about this code, feel free to reach me(hui_li_jnu@163.com, lihui@stu.jiangnan.edu.cn) 
+Hardware required and software required Matlab language compiler
 
-
-### Fusion method
-![](https://github.com/hli1221/imagefusion_deeplearning/blob/master/framework/framework_method.png)
-
-### Fusion detail content
-![](https://github.com/hli1221/imagefusion_deeplearning/blob/master/framework/fusion_detail.png)
-
-### Multi-layers fusion strategy
-![](https://github.com/hli1221/imagefusion_deeplearning/blob/master/framework/fusion_strategy.png)
-
-### Quality metric - Nabf
-Nabf - 'B. K. Shreyamsha Kumar. Multifocus and Multispectral Image Fusion based on Pixel Significance using Discrete Cosine Harmonic Wavelet Transform. Signal, Image and Video Processing, 2012.'
-![](https://github.com/hli1221/imagefusion_deeplearning/blob/master/framework/Nabf.png)
-
-
-### Pytorch version
-
-For reference only
-
-https://github.com/GrimReaperSam/imagefusion_pytorch
-
-# Citation
-
-For paper:
-
-*Li H, Wu X J, Kittler J. Infrared and Visible Image Fusion using a Deep Learning Framework[C]//Pattern Recognition (ICPR), 2018 24rd International Conference on. IEEE, 2018: 2705 - 2710.*
-
-For code:
-```
-@misc{li2018IVimagefusion_deeplearning,
-    author = {Hui Li},
-    title = {CODE: Infrared and Visible Image Fusion using a Deep Learning Framework},
-    year = {2017},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/hli1221/imagefusion_deeplearning}}
-  }
-```
+Program size 8.62 KB
